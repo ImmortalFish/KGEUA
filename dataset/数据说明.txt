@@ -1,0 +1,10 @@
+本数据集是twitter-foursquare的社交网络数据，其中twitter共有5120个用户，foursquare共有5313个用户。
+数据集中所含文件及含义如下：
+twitter_user_ids：twitter中的用户id及用户名的对应文件
+foursquare_user_ids：foursquare中的用户id及用户名的对应文件
+twitter_following：twitter中的网络结构，以用户名表示
+forsquare_following：forsquare中的网络结构，以用户名表示
+twitter_triples：twitter中的网络结构，以用户id和三元组的形式表示
+foursquare_triples：foursquare中的网络结构，以用户id和三元组的形式表示
+groundtruth：两个网络中已知对齐的用户，以用户名表示（两个网络中用户名相同，即表示为同一个人）
+truth_ents_ids：两个网络中已知对齐的用户对，以用户id表示
